@@ -11,7 +11,6 @@ npm install
 cp backend.service /etc/systemd/system/backend.service
 systemctl daemon-reload
 systemctl enable backend
-systemctl start backend
 systemctl restart backend
 
 dnf install mysql -y
